@@ -31,7 +31,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
 2. Launch ZeroTier, right-click the tray icon, select **Join New Network**, and enter:
-   `8bd5124fd68185ec` [PLEASE NOTE THAT YOU MAY ENTER ANY ADDRESS YOU LIKE, THIS ADDRESS IS SIMPLY FOR CONNECTING TO GRID0]
+   `8bd5124fd68185ec`
 3. Open your emulator settings (e.g. Ryujinx):
    * Go to **Settings → Network**.
    * Set **Mode** to `Disabled`.
