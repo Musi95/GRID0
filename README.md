@@ -1,3 +1,7 @@
+
+![Banner](img/banner.png?raw=true)
+=====
+
 # GRID0 Hub
 
 > **WIP Notice**: Official hub for GRID0 network routing and client setup.
