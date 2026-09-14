@@ -31,7 +31,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
 2. Launch ZeroTier, right-click the tray icon, select **Join New Network**, and enter:
-   `8bd5124fd68185ec`
+   `8bd5124fd68185ec` (subject to change)
 3. Open your emulator settings (e.g. Ryujinx):
    * Go to **Settings → Network**.
    * Set **Mode** to `Disabled`.
@@ -44,7 +44,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
-1. Download the latest release from the **[sys-zerotier repository](https://github.com/redluigi323/sys-zerotier/)**.
+1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)**.
 2. Extract the archive to the root of your SD card.
 4. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
 
