@@ -2,7 +2,7 @@
 ![Banner](img/banner.png?raw=true)
 =====
 
-# GRID0 Hub
+# Welcome to GRID0
 
 > **WIP Notice**: Official hub for GRID0 network routing and client setup.
 
