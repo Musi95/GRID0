@@ -48,3 +48,17 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 2. Extract the archive to the root of your SD card.
 4. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
 
+---
+
+### 3. Stock Switch and Switch 2 Setup (OFW)
+
+Stock consoles cannot execute background custom modules. `grid0-overlay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
+
+1. Download and open `grid0-overlay.exe` from the **[GRID0-overlay](https://github.com/YOUR_REPO/grid0-overlay)**.
+2. `grid0-overlay.exe` will automatically install ZeroTier One and npcap, but make sure they are installed (it should say ZeroTier One and npcap are installed in the `grid0-overlay.exe` settings).
+3. Launch ZeroTier, right-click the tray icon, select **Join New Network**, and enter:
+   `8bd5124fd68185ec` (subject to change)
+4. In `grid0-overlay.exe`, open **Settings**, the overlay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).
+5. Go back to the **Play** section of `grid0-overlay.exe` and notice the Switch IP settings it provides you.
+6. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP setting. (Primary DNS can be set to ***8.8.8.8** and Secondary DNS can be left blank).
+7. Make sure to save and connect to the network.
