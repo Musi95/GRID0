@@ -46,5 +46,5 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 1. Download the latest release from the **[sys-zerotier repository](https://github.com/redluigi323/sys-zerotier/)**.
 2. Extract the archive to the root of your SD card.
-4. Reboot into Atmosphère and verify connection status using the Tesla overlay menu.
+4. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
 
