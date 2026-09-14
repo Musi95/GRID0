@@ -15,6 +15,6 @@ GRID0 is a virtual overlay network bridging all three Switch ecosystems into the
 | :--- | :--- | :--- | :--- |
 | **Emulator** | PC / Steam Deck (Ryujinx, Suyu) | **ZeroTier One** | Desktop client binds directly to emulator network adapter. |
 | **CFW** | Modded Switch (Atmosphère) | **sys-zerotier** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch | **grid0-overlay** | PC companion application bridges Switch Wi-Fi traffic. |
+| **OFW** | Unmodded Stock Switch or Switch 2 | **grid0-overlay** | PC companion application bridges Switch Wi-Fi traffic. |
 
 ---
