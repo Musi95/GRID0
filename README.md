@@ -54,7 +54,7 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 Stock consoles cannot execute background custom modules. `grid0-overlay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
-1. Download and open `GRID0Relay.exe` from the **[GRID0-overlay](https://github.com/YOUR_REPO/grid0-overlay)**.
+1. Download and open `GRID0Relay.exe` from the **[GRID0-overlay](https://github.com/redluigi323/grid0-overlay)**.
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.  
 <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).</details></small>
 4. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network.  
