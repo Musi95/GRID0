@@ -61,6 +61,9 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 <small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.</details></small>
 5. `GRID0Relay` will automatically select the correct ZeroTier adapter.
 <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
-7. Go back to the **Play** section of `GRID0Relay` and notice the Switch IP settings it provides you.
-8. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP setting. (Primary DNS can be set to ***8.8.8.8** and Secondary DNS can be left blank).
-9. Make sure to save and connect to the network.
+Windows and Hotspot Capable Only Easy Automatic Mode subcategory:
+6. Go back to the **Play** section of `GRID0Relay`, make sure **Automatic (DHCP)** is selected, click **Set up PC hotspot** if it isn't already set up and click **Start relay**.
+7. Connect your Switch or Switch 2 to the PC Hotspot with Automatic IP settings. If your Switch or Switch 2 was already connected, simply turn on and off either **Sleep Mode** or **Airplane Mode** (both work).
+6. Go back to the **Play** section of `GRID0Relay`, make sure **Manual IP settings** is selected, click **Start relay** and notice the Switch IP settings it provides you.
+7. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP setting. (Primary DNS can be set to ***8.8.8.8** and Secondary DNS can be left blank).
+8. Make sure to save and connect to the network.
