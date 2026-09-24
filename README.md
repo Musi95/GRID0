@@ -13,19 +13,19 @@
 
 ---
 
-## Quick Connection Matrix
+## Services
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
 | :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **ZeroTier One** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **sys-GRID0** | On-device background sysmodule. No host PC required. |
+| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0+** | Desktop client binds directly to emulator network adapter. |
+| **CFW** | Modded Switch (Atmosphère) | **sys-GRID0+** | On-device background sysmodule. No host PC required. |
 | **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0-relay** | PC companion application bridges Switch Wi-Fi traffic. |
 
 ---
 
 ## Setup Guides
 
-### 1. Emulator Setup (PC, Windows)
+### 1. Emulator Setup (PC, Windows) [GRID0+]
 
 If you play on an emulator you just need the native ZeroTier client.
 
@@ -40,7 +40,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 ---
 
-### 2. Modded Switch 
+### 2. Modded Switch (CFW) [sys-GRID0+]
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
@@ -50,20 +50,27 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 ---
 
-### 3. Stock Switch and Switch 2 Setup (OFW)
+### 3. Stock Switch and Switch 2 Setup (OFW) [GRID0-Relay]
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
 1. Download and open `GRID0Relay.exe` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)**.
-2. `GRID0Relay` will automatically install ZeroTier One and npcap.  
-<small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).</details></small>
-4. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network.  
-<small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.</details></small>
-5. `GRID0Relay` will automatically select the correct ZeroTier adapter.
-<small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
-Windows and Hotspot Capable Only Easy Automatic Mode subcategory:
-6. Go back to the **Play** section of `GRID0Relay`, make sure **Automatic (DHCP)** is selected, click **Set up PC hotspot** if it isn't already set up and click **Start relay**.
-7. Connect your Switch or Switch 2 to the PC Hotspot with Automatic IP settings. If your Switch or Switch 2 was already connected, simply turn on and off either **Sleep Mode** or **Airplane Mode** (both work).
-6. Go back to the **Play** section of `GRID0Relay`, make sure **Manual IP settings** is selected, click **Start relay** and notice the Switch IP settings it provides you.
-7. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP setting. (Primary DNS can be set to ***8.8.8.8** and Secondary DNS can be left blank).
-8. Make sure to save and connect to the network.
+2. `GRID0Relay` will automatically install ZeroTier One and npcap.
+   <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).</details></small>
+3. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network.
+   <small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.</details></small>
+4. `GRID0Relay` will automatically select the correct ZeroTier adapter.
+   <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
+
+<small><details><summary>Automatic Mode (Easier, Windows and Hotspot Capable Only):</summary>
+
+5. Go back to the **Play** section of `GRID0Relay`, make sure **Automatic (DHCP)** is selected, click **Set up PC hotspot** if it isn't already set up and click **Start relay**.
+6. Connect your Switch or Switch 2 to the PC Hotspot normally. If your Switch or Switch 2 was already connected, simply turn on and off either **Sleep Mode** or **Airplane Mode** (both work).
+</details></small>
+
+<small><details><summary>Manual Mode:</summary>
+
+5. Go back to the **Play** section of `GRID0Relay`, make sure **Manual IP settings** is selected, click **Start relay** and notice the Switch IP settings it provides you.
+6. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP settings. (Primary DNS can be set to **8.8.8.8** and Secondary DNS can be left blank).
+7. Make sure to save and connect to the network.
+</details></small.
