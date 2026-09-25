@@ -21,7 +21,7 @@
 | **CFW** | Modded Switch (Atmosphère) | **sys-GRID0(+)** | On-device background sysmodule. No host PC required. |
 | **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 relay** | PC companion application bridges Switch Wi-Fi traffic. |
 
-> **Why the +?** `GRID0+ client` and `sys-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features, similar to what Nixtendo does. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
+> **Why the +?** `GRID0+ client` and `sys-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
 
 ---
 
