@@ -127,7 +127,7 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 7. Make sure to save and connect to the network.
 </details></small>
 
-## Contributors
+## Project Owners
 
 - **[Mustafa](https://github.com/Musi95)**
 - **[name](https://github.com/redluigi323)**
