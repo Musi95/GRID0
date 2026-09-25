@@ -104,7 +104,10 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
    <img src="img/tray-video.gif" width="300" alt="Windows tray ZeroTier config for the PC app and the relay">
    </details></small>
 4. `GRID0Relay` will automatically select the correct ZeroTier adapter.
-   <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
+   <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).<br>
+   <img src="img/relay-choose-adapter.gif" width="300" alt="Choosing the ZeroTier adapter in the relay Settings tab"><br>
+   <img src="img/relay-connection.gif" width="300" alt="The relay Settings tab with the ZeroTier adapter selected">
+   </details></small>
 
 <small><details><summary>Automatic Mode (Easier, Windows and Hotspot Capable Only):</summary>
 
