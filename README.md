@@ -27,7 +27,7 @@
 
 ## Setup Guides
 
-> marks a step the relay app already does for you automatically, so you can skip the manual work.
+> ⚙️ marks a step the relay app already does for you automatically, so you can skip the manual work.
 
 ### 1. Emulator Setup [GRID0+]
 
