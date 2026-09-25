@@ -129,6 +129,6 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 
 ## Contributors
 
-- **[Mustafa](https://github.com/Musi95)** — GRID0 project owner and relay maintainer.
-- **[redluigi](https://github.com/redluigi323)** — Built the original GRID0-relay; owns the GRID0-relay and sys-GRID0 repos.
-- **Donut** — Building SwitchNet, merging with GRID0.
+- **[Mustafa](https://github.com/Musi95)**
+- **[redluigi](https://github.com/redluigi323)**
+- **Donut**
