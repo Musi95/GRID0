@@ -17,11 +17,11 @@
 
 | Ecosystem | Platform / Environment | Core Tool | Connection Method |
 | :--- | :--- | :--- | :--- |
-| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0+** | Desktop client binds directly to emulator network adapter. |
-| **CFW** | Modded Switch (Atmosphère) | **sys-GRID0+** | On-device background sysmodule. No host PC required. |
-| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0-relay** | PC companion application bridges Switch Wi-Fi traffic. |
+| **Emulator** | PC / Steam Deck (Ryujinx, Astris, Eden, etc.) | **GRID0(+) client** | Desktop client binds directly to emulator network adapter. |
+| **CFW** | Modded Switch (Atmosphère) | **sys-GRID0(+)** | On-device background sysmodule. No host PC required. |
+| **OFW** | Unmodded Stock Switch or Switch 2 | **GRID0 relay** | PC companion application bridges Switch Wi-Fi traffic. |
 
-> **Why the +?** `GRID0+` and `sys-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features, similar to what Nixtendo does. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
+> **Why the +?** `GRID0+ client` and `sys-GRID0+` are the names for the future versions that will connect to simulated Nintendo servers, with lobbies, matchmaking, and in-game features, similar to what Nixtendo does. That part is still being built. Everything in this guide just gets you onto the GRID0 network itself.
 
 ---
 
@@ -29,7 +29,7 @@
 
 > ⚙️ marks a step the relay app already does for you automatically, so you can skip the manual work.
 
-### 1. Emulator Setup [GRID0+]
+### 1. Emulator Setup [GRID0-client]
 
 If you play on an emulator you just need the native ZeroTier client.
 
@@ -72,7 +72,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 ---
 
-### 2. Modded Switch (CFW) [sys-GRID0+]
+### 2. Modded Switch (CFW) [sys-GRID0]
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
@@ -89,23 +89,23 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 ---
 
-### 3. Stock Switch and Switch 2 Setup (OFW) [GRID0-Relay]
+### 3. Stock Switch and Switch 2 Setup (OFW) [GRID0 relay]
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
 [video tutorial: setting up GRID0-relay on PC and connecting a stock Switch, automatic and manual modes]
 
-1. Download and open `GRID0Relay.exe` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)**.
+1. Download and open `GRID0Relay.exe` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)** repository.
 
 [image: the GRID0-relay releases page with the download for your system highlighted]
 
-2. `GRID0Relay` will automatically install ZeroTier One and npcap. ⚙️
+2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).</details></small>
-3. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network. ⚙️
+3. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network.
    <small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.</details></small>
 
 <video src="img/2026-09-25%2000-41-59%20-%20Trim.mp4" width="640" controls>Windows tray ZeroTier config for the PC app and the relay: [watch the video](img/2026-09-25%2000-41-59%20-%20Trim.mp4)</video>
-4. `GRID0Relay` will automatically select the correct ZeroTier adapter. ⚙️
+4. `GRID0Relay` will automatically select the correct ZeroTier adapter.
    <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
 
 [image: the Windows tray with the ZeroTier icon, checkmark visible next to the GRID0 network]
