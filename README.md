@@ -34,7 +34,7 @@ If you play on an emulator you just need the native ZeroTier client.
    `8bd5124fd68185ec`
 3. Open your emulator settings (e.g. Ryujinx):
    * Go to **Settings → Network**.
-   * Set **Mode** to `Disabled`.
+   * Set the multiplayer **Mode** to `Disabled`.
    * Enable **Guest Internet Access/LAN Mode**
    * Remember to click **Apply** and/or **OK**.
 
@@ -46,7 +46,7 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)**.
 2. Extract the archive to the root of your SD card.
-4. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
+3. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
 
 ---
 
