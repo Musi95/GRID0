@@ -27,7 +27,7 @@
 
 ## Setup Guides
 
-> ⚙️ marks a step our apps already do for you automatically, so you can skip the manual work.
+> marks a step the relay app already does for you automatically, so you can skip the manual work.
 
 ### 1. Emulator Setup [GRID0+]
 
@@ -37,32 +37,32 @@ If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
 
-1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**. ⚙️
-2. Right-click the tray icon, select **Join New Network**, and enter: ⚙️
+1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
+2. Right-click the tray icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
 
 [image: the Windows system tray with the hidden-icons arrow expanded, pointing at the ZeroTier icon]
 
 #### macOS
 
-1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**. ⚙️
-2. Click the menu bar icon, select **Join New Network**, and enter: ⚙️
+1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
+2. Click the menu bar icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
 
 [image: the macOS menu bar showing the ZeroTier icon and the join network option]
 
 #### Linux
 
-1. Install ZeroTier One: ⚙️
+1. Install ZeroTier One:
    `curl -s https://install.zerotier.com | sudo bash`
-2. Join the GRID0 network: ⚙️
+2. Join the GRID0 network:
    `sudo zerotier-cli join 8bd5124fd68185ec`
 
 [image: a terminal showing the install and join commands with their output]
 
 #### Emulator settings (all platforms)
 
-1. Open your emulator settings (e.g. Ryujinx): ⚙️
+1. Open your emulator settings (e.g. Ryujinx):
    * Go to **Settings → Network**.
    * Set the multiplayer **Mode** to `Disabled`.
    * Enable **Guest Internet Access/LAN Mode**
