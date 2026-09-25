@@ -100,11 +100,12 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).</details></small>
 3. `GRID0Relay` will automatically launch ZeroTier and connect to the GRID0 network.
-   <small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.</details></small>
+   <small><details><summary>For certainty:</summary>Windows: Click the Up arrow at the bottom right of your screen and right-click the ZeroTier tray icon, make sure there is a check mark beside "`GRID0Relay` GRID0.
+   <img src="img/tray-video.gif" width="300" alt="Windows tray ZeroTier config for the PC app and the relay">
+   </details></small>
 4. `GRID0Relay` will automatically select the correct ZeroTier adapter.
    <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
 
-<img src="img/tray-video.gif" width="360" alt="Windows tray ZeroTier config for the PC app and the relay">
 [image: the Windows tray with the ZeroTier icon, checkmark visible next to the GRID0 network]
 
 <small><details><summary>Automatic Mode (Easier, Windows and Hotspot Capable Only):</summary>
