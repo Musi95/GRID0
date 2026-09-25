@@ -27,8 +27,6 @@
 
 ## Setup Guides
 
-> ⚙️ marks a step the relay app already does for you automatically, so you can skip the manual work.
-
 ### 1. Emulator Setup [GRID0-client]
 
 If you play on an emulator you just need the native ZeroTier client.
