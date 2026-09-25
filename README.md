@@ -25,14 +25,32 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup (PC, Windows) [GRID0+]
+### 1. Emulator Setup [GRID0+]
 
 If you play on an emulator you just need the native ZeroTier client.
 
+#### Windows
+
 1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
-2. Launch ZeroTier, right-click the tray icon, select **Join New Network**, and enter:
+2. Right-click the tray icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
-3. Open your emulator settings (e.g. Ryujinx):
+
+#### macOS
+
+1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
+2. Click the menu bar icon, select **Join New Network**, and enter:
+   `8bd5124fd68185ec`
+
+#### Linux
+
+1. Install ZeroTier One:
+   `curl -s https://install.zerotier.com | sudo bash`
+2. Join the GRID0 network:
+   `sudo zerotier-cli join 8bd5124fd68185ec`
+
+#### Emulator settings (all platforms)
+
+1. Open your emulator settings (e.g. Ryujinx):
    * Go to **Settings → Network**.
    * Set the multiplayer **Mode** to `Disabled`.
    * Enable **Guest Internet Access/LAN Mode**
