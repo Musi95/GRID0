@@ -106,8 +106,6 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 4. `GRID0Relay` will automatically select the correct ZeroTier adapter.
    <small><details><summary>For certainty:</summary>In `GRID0Relay`, open **Settings**, the relay will automatically connect to the presumed ZeroTier connection, but make sure the ZeroTier connection selected looks like the correct one (should be named something similar to ZeroTier).</details></small>
 
-[image: the Windows tray with the ZeroTier icon, checkmark visible next to the GRID0 network]
-
 <small><details><summary>Automatic Mode (Easier, Windows and Hotspot Capable Only):</summary>
 
 5. Go back to the **Play** section of `GRID0Relay`, make sure **Automatic (DHCP)** is selected, click **Set up PC hotspot** if it isn't already set up and click **Start relay**.
