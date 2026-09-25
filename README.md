@@ -26,13 +26,13 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup [GRID0-client]
+### 1. Emulator Setup [GRID0-client] **[(WORK IN PROGRESS)](https://www.zerotier.com/download/)**
 
 If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
 
-1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
+1. Download and install **[ZeroTier One](https://github.com/Musi95/GRID0-client/)**.
 2. Right-click the tray icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
 <img src="img/tray-video.gif" width="300" alt="Windows tray ZeroTier config for the PC app and the relay">
@@ -70,7 +70,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
-1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)**.
+1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)** repository.
 2. Extract the archive to the root of your SD card.
 
 [image: the SD card root with the extracted sys-GRID0 folders in place]
@@ -85,7 +85,7 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
-1. Download and open `GRID0Relay.exe` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)** repository.
+1. Download and open `GRID0Relay` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)** repository.
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).<br>
    <img src="img/relay-connection.gif" width="300" alt="Choosing the ZeroTier adapter in the relay Settings tab">
