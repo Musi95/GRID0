@@ -30,15 +30,12 @@
 
 If you play on an emulator you just need the native ZeroTier client.
 
-[video tutorial: complete emulator setup walkthrough for Windows, macOS, and Linux]
-
 #### Windows
 
 1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
 2. Right-click the tray icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
-
-[image: the Windows system tray with the hidden-icons arrow expanded, pointing at the ZeroTier icon]
+<img src="img/tray-video.gif" width="300" alt="Windows tray ZeroTier config for the PC app and the relay">
 
 #### macOS
 
@@ -73,8 +70,6 @@ If you play on an emulator you just need the native ZeroTier client.
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
-[video tutorial: installing sys-GRID0 on a modded Switch, from download to first connection]
-
 1. Download the latest release from the **[sys-GRID0](https://github.com/redluigi323/sys-GRID0/)**.
 2. Extract the archive to the root of your SD card.
 
@@ -90,12 +85,7 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 Stock consoles cannot execute background custom modules. `grid0-relay` runs on a PC connected to the same home network, capturing and translating LAN-Play packets automatically.
 
-[video tutorial: setting up GRID0-relay on PC and connecting a stock Switch, automatic and manual modes]
-
 1. Download and open `GRID0Relay.exe` from the **[GRID0-relay](https://github.com/redluigi323/grid0-relay)** repository.
-
-[image: the GRID0-relay releases page with the download for your system highlighted]
-
 2. `GRID0Relay` will automatically install ZeroTier One and npcap.
    <small><details><summary>For certainty:</summary>Make sure they are installed (it should say ZeroTier One and npcap are installed in the `GRID0Relay` settings).<br>
    <img src="img/relay-connection.gif" width="300" alt="Choosing the ZeroTier adapter in the relay Settings tab">
