@@ -26,13 +26,13 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup [GRID0-client] **[(WORK IN PROGRESS)](https://www.zerotier.com/download/)**
+### 1. Emulator Setup [GRID0-client] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
 
 If you play on an emulator you just need the native ZeroTier client.
 
 #### Windows
 
-1. Download and install **[ZeroTier One](https://github.com/Musi95/GRID0-client/)**.
+1. Download and install **[ZeroTier One](https://www.zerotier.com/download/)**.
 2. Right-click the tray icon, select **Join New Network**, and enter:
    `8bd5124fd68185ec`
 <img src="img/tray-video.gif" width="300" alt="Windows tray ZeroTier config for the PC app and the relay">
