@@ -73,4 +73,4 @@ Stock consoles cannot execute background custom modules. `grid0-relay` runs on a
 5. Go back to the **Play** section of `GRID0Relay`, make sure **Manual IP settings** is selected, click **Start relay** and notice the Switch IP settings it provides you.
 6. On your Switch or Switch 2, enter **Network Settings**, **Change Settings** on the same network your PC is connected to, and enter the provided IP settings. (Primary DNS can be set to **8.8.8.8** and Secondary DNS can be left blank).
 7. Make sure to save and connect to the network.
-</details></small.
+</details></small>
