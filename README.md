@@ -75,7 +75,8 @@ Runs directly on the console as a background sysmodule. No PC or phone required 
 
 [image: the SD card root with the extracted sys-GRID0 folders in place]
 
-3. Reboot into Atmosphère and verify connection status using the Tesla (or Ultrahand) overlay menu.
+3. Reboot into atmosphere, (temporary step) Currently the network id isnt included with the release, so in ultrahand, insert the following network id on the sys-zerotier page (name is also not yet updated) : 8bd5124fd68185ec
+4. Verify connection status using the Tesla (or Ultrahand) overlay menu.
 
 [image: the Tesla overlay open on the Switch showing the sys-GRID0 connection status]
 
