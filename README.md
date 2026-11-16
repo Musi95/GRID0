@@ -26,7 +26,7 @@
 
 ## Setup Guides
 
-### 1. Emulator Setup [emu-GRID0+] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
+### 1. Emulator Setup [GRID0-emu] **[(WORK IN PROGRESS)](https://github.com/Musi95/GRID0-client/)**
 
 If you play on an emulator you just need the native ZeroTier client.
 
@@ -66,7 +66,7 @@ If you play on an emulator you just need the native ZeroTier client.
 
 ---
 
-### 2. Modded Switch (CFW) [cfw-GRID0+]
+### 2. Modded Switch (CFW) [GRID0-cfw]
 
 Runs directly on the console as a background sysmodule. No PC or phone required while playing.
 
